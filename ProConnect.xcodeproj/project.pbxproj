@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC1DD3011EF4259400B81F46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DD3001EF4259400B81F46 /* HomeViewController.swift */; };
+		AC1DD3031EF81D4200B81F46 /* MainGridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DD3021EF81D4200B81F46 /* MainGridViewCell.swift */; };
+		AC1DD3051EFDA1EB00B81F46 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1DD3041EFDA1EB00B81F46 /* DetailViewController.swift */; };
+		AC4D0B2B1EF193DB00C39CF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D0B2A1EF193DB00C39CF1 /* AppDelegate.swift */; };
+		AC4D0B2D1EF193DB00C39CF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D0B2C1EF193DB00C39CF1 /* ViewController.swift */; };
+		AC4D0B301EF193DB00C39CF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4D0B2E1EF193DB00C39CF1 /* Main.storyboard */; };
+		AC4D0B321EF193DB00C39CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4D0B311EF193DB00C39CF1 /* Assets.xcassets */; };
+		AC4D0B351EF193DB00C39CF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC4D0B331EF193DB00C39CF1 /* LaunchScreen.storyboard */; };
+		AC4D0B401EF193DB00C39CF1 /* ProConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D0B3F1EF193DB00C39CF1 /* ProConnectTests.swift */; };
+		AC4D0B4B1EF193DB00C39CF1 /* ProConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4D0B4A1EF193DB00C39CF1 /* ProConnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4D0B3C1EF193DB00C39CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4D0B1F1EF193DB00C39CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4D0B261EF193DB00C39CF1;
+			remoteInfo = ProConnect;
+		};
+		AC4D0B471EF193DB00C39CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4D0B1F1EF193DB00C39CF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4D0B261EF193DB00C39CF1;
+			remoteInfo = ProConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC1DD3001EF4259400B81F46 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AC1DD3021EF81D4200B81F46 /* MainGridViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainGridViewCell.swift; sourceTree = "<group>"; };
+		AC1DD3041EFDA1EB00B81F46 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AC4D0B271EF193DB00C39CF1 /* ProConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D0B2A1EF193DB00C39CF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC4D0B2C1EF193DB00C39CF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC4D0B2F1EF193DB00C39CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC4D0B311EF193DB00C39CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4D0B341EF193DB00C39CF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC4D0B361EF193DB00C39CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4D0B3B1EF193DB00C39CF1 /* ProConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D0B3F1EF193DB00C39CF1 /* ProConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProConnectTests.swift; sourceTree = "<group>"; };
+		AC4D0B411EF193DB00C39CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC4D0B461EF193DB00C39CF1 /* ProConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4D0B4A1EF193DB00C39CF1 /* ProConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProConnectUITests.swift; sourceTree = "<group>"; };
+		AC4D0B4C1EF193DB00C39CF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4D0B241EF193DB00C39CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D0B381EF193DB00C39CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D0B431EF193DB00C39CF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4D0B1E1EF193DB00C39CF1 = {
+			isa = PBXGroup;
+			children = (
+				AC4D0B291EF193DB00C39CF1 /* ProConnect */,
+				AC4D0B3E1EF193DB00C39CF1 /* ProConnectTests */,
+				AC4D0B491EF193DB00C39CF1 /* ProConnectUITests */,
+				AC4D0B281EF193DB00C39CF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4D0B281EF193DB00C39CF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D0B271EF193DB00C39CF1 /* ProConnect.app */,
+				AC4D0B3B1EF193DB00C39CF1 /* ProConnectTests.xctest */,
+				AC4D0B461EF193DB00C39CF1 /* ProConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4D0B291EF193DB00C39CF1 /* ProConnect */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D0B2A1EF193DB00C39CF1 /* AppDelegate.swift */,
+				AC4D0B2C1EF193DB00C39CF1 /* ViewController.swift */,
+				AC4D0B2E1EF193DB00C39CF1 /* Main.storyboard */,
+				AC1DD3041EFDA1EB00B81F46 /* DetailViewController.swift */,
+				AC1DD3021EF81D4200B81F46 /* MainGridViewCell.swift */,
+				AC1DD3001EF4259400B81F46 /* HomeViewController.swift */,
+				AC4D0B311EF193DB00C39CF1 /* Assets.xcassets */,
+				AC4D0B331EF193DB00C39CF1 /* LaunchScreen.storyboard */,
+				AC4D0B361EF193DB00C39CF1 /* Info.plist */,
+			);
+			path = ProConnect;
+			sourceTree = "<group>";
+		};
+		AC4D0B3E1EF193DB00C39CF1 /* ProConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D0B3F1EF193DB00C39CF1 /* ProConnectTests.swift */,
+				AC4D0B411EF193DB00C39CF1 /* Info.plist */,
+			);
+			path = ProConnectTests;
+			sourceTree = "<group>";
+		};
+		AC4D0B491EF193DB00C39CF1 /* ProConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4D0B4A1EF193DB00C39CF1 /* ProConnectUITests.swift */,
+				AC4D0B4C1EF193DB00C39CF1 /* Info.plist */,
+			);
+			path = ProConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4D0B261EF193DB00C39CF1 /* ProConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D0B4F1EF193DB00C39CF1 /* Build configuration list for PBXNativeTarget "ProConnect" */;
+			buildPhases = (
+				AC4D0B231EF193DB00C39CF1 /* Sources */,
+				AC4D0B241EF193DB00C39CF1 /* Frameworks */,
+				AC4D0B251EF193DB00C39CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProConnect;
+			productName = ProConnect;
+			productReference = AC4D0B271EF193DB00C39CF1 /* ProConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4D0B3A1EF193DB00C39CF1 /* ProConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D0B521EF193DB00C39CF1 /* Build configuration list for PBXNativeTarget "ProConnectTests" */;
+			buildPhases = (
+				AC4D0B371EF193DB00C39CF1 /* Sources */,
+				AC4D0B381EF193DB00C39CF1 /* Frameworks */,
+				AC4D0B391EF193DB00C39CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4D0B3D1EF193DB00C39CF1 /* PBXTargetDependency */,
+			);
+			name = ProConnectTests;
+			productName = ProConnectTests;
+			productReference = AC4D0B3B1EF193DB00C39CF1 /* ProConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4D0B451EF193DB00C39CF1 /* ProConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4D0B551EF193DB00C39CF1 /* Build configuration list for PBXNativeTarget "ProConnectUITests" */;
+			buildPhases = (
+				AC4D0B421EF193DB00C39CF1 /* Sources */,
+				AC4D0B431EF193DB00C39CF1 /* Frameworks */,
+				AC4D0B441EF193DB00C39CF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4D0B481EF193DB00C39CF1 /* PBXTargetDependency */,
+			);
+			name = ProConnectUITests;
+			productName = ProConnectUITests;
+			productReference = AC4D0B461EF193DB00C39CF1 /* ProConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4D0B1F1EF193DB00C39CF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Steris;
+				TargetAttributes = {
+					AC4D0B261EF193DB00C39CF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AC4D0B3A1EF193DB00C39CF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC4D0B261EF193DB00C39CF1;
+					};
+					AC4D0B451EF193DB00C39CF1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC4D0B261EF193DB00C39CF1;
+					};
+				};
+			};
+			buildConfigurationList = AC4D0B221EF193DB00C39CF1 /* Build configuration list for PBXProject "ProConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4D0B1E1EF193DB00C39CF1;
+			productRefGroup = AC4D0B281EF193DB00C39CF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4D0B261EF193DB00C39CF1 /* ProConnect */,
+				AC4D0B3A1EF193DB00C39CF1 /* ProConnectTests */,
+				AC4D0B451EF193DB00C39CF1 /* ProConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4D0B251EF193DB00C39CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D0B351EF193DB00C39CF1 /* LaunchScreen.storyboard in Resources */,
+				AC4D0B321EF193DB00C39CF1 /* Assets.xcassets in Resources */,
+				AC4D0B301EF193DB00C39CF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D0B391EF193DB00C39CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D0B441EF193DB00C39CF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4D0B231EF193DB00C39CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D0B2D1EF193DB00C39CF1 /* ViewController.swift in Sources */,
+				AC4D0B2B1EF193DB00C39CF1 /* AppDelegate.swift in Sources */,
+				AC1DD3051EFDA1EB00B81F46 /* DetailViewController.swift in Sources */,
+				AC1DD3011EF4259400B81F46 /* HomeViewController.swift in Sources */,
+				AC1DD3031EF81D4200B81F46 /* MainGridViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D0B371EF193DB00C39CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D0B401EF193DB00C39CF1 /* ProConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4D0B421EF193DB00C39CF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4D0B4B1EF193DB00C39CF1 /* ProConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4D0B3D1EF193DB00C39CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4D0B261EF193DB00C39CF1 /* ProConnect */;
+			targetProxy = AC4D0B3C1EF193DB00C39CF1 /* PBXContainerItemProxy */;
+		};
+		AC4D0B481EF193DB00C39CF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4D0B261EF193DB00C39CF1 /* ProConnect */;
+			targetProxy = AC4D0B471EF193DB00C39CF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC4D0B2E1EF193DB00C39CF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4D0B2F1EF193DB00C39CF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC4D0B331EF193DB00C39CF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC4D0B341EF193DB00C39CF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC4D0B4D1EF193DB00C39CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4D0B4E1EF193DB00C39CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4D0B501EF193DB00C39CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ProConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC4D0B511EF193DB00C39CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ProConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC4D0B531EF193DB00C39CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ProConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProConnect.app/ProConnect";
+			};
+			name = Debug;
+		};
+		AC4D0B541EF193DB00C39CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ProConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProConnect.app/ProConnect";
+			};
+			name = Release;
+		};
+		AC4D0B561EF193DB00C39CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ProConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ProConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProConnect;
+			};
+			name = Debug;
+		};
+		AC4D0B571EF193DB00C39CF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ProConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ProConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ProConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4D0B221EF193DB00C39CF1 /* Build configuration list for PBXProject "ProConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D0B4D1EF193DB00C39CF1 /* Debug */,
+				AC4D0B4E1EF193DB00C39CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4D0B4F1EF193DB00C39CF1 /* Build configuration list for PBXNativeTarget "ProConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D0B501EF193DB00C39CF1 /* Debug */,
+				AC4D0B511EF193DB00C39CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4D0B521EF193DB00C39CF1 /* Build configuration list for PBXNativeTarget "ProConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D0B531EF193DB00C39CF1 /* Debug */,
+				AC4D0B541EF193DB00C39CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4D0B551EF193DB00C39CF1 /* Build configuration list for PBXNativeTarget "ProConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4D0B561EF193DB00C39CF1 /* Debug */,
+				AC4D0B571EF193DB00C39CF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4D0B1F1EF193DB00C39CF1 /* Project object */;
+}
